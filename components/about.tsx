@@ -20,7 +20,9 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         I earned my{" "}
-        <span className="font-bold">Bachelor's in Industrial Engineering</span>{" "}
+        <span className="font-bold">
+          Bachelor&apos;s in Industrial Engineering
+        </span>{" "}
         from <span className="font-bold">Purdue University</span>, but a
         lightbulb moment during my junior year drew me toward software
         development. Following graduation, I landed a role as a{" "}
@@ -30,15 +32,15 @@ export default function About() {
         Angular and eventually made the leap to a full-stack developer. I{" "}
         <span className="underline">enjoyed</span> learning about development so
         much that I decided to return to school. I recently completed my{" "}
-        <span className="font-bold">Master's in Computer Science</span> from{" "}
-        <span className="font-bold">USC</span>. Although my core stack is{" "}
+        <span className="font-bold">Master&apos;s in Computer Science</span>{" "}
+        from <span className="font-bold">USC</span>. Although my core stack is{" "}
         <span className="font-bold">Angular, Node.js (Express), and SQL</span>,
-        I'm always eager to explore new technologies. While my experience
+        I&apos;m always eager to explore new technologies. While my experience
         centers on software development,{" "}
-        <span className="italic">I'm increasingly drawn</span> to Large Language
-        Models. In fact, I recently submitted a research paper on{" "}
+        <span className="italic">I&apos;m increasingly drawn</span> to Large
+        Language Models. In fact, I recently submitted a research paper on{" "}
         <span className="font-bold">supervised fine-tuning of LLMs</span> for
-        conference review. I'm currently on the lookout for a{" "}
+        conference review. I&apos;m currently on the lookout for a{" "}
         <span className="underline">software engineering position</span> where I
         can <span className="font-bold">wear different hats</span> and dive into
         various domains, ideally somewhere that encourages{" "}
@@ -46,7 +48,7 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy making
+        <span className="italic">When I&apos;m not coding</span>, I enjoy making
         espresso ☕️, working out 🏋🏽‍♂️, playing fantasy football 🏈, traveling ✈️,
         and learning Greek 🇬🇷.
       </p>

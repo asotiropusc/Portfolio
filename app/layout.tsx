@@ -21,6 +21,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Alex | Personal Portfolio",
   description: "Alex is a full-stack developer with 3 years of experience.",
+  openGraph: {
+    title: "Alex Sotiropoulos | Personal Portfolio",
+    images: [
+      {
+        url: "/thumbnail.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

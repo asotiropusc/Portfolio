@@ -76,7 +76,7 @@ export default function Project({
                 src="/construction_tape.png"
                 alt="Under Construction"
                 fill
-                className="rotate-[8deg] -translate-y-8 translate-x-8 opacity-90"
+                className="rotate-[8deg] -translate-y-8 translate-x-8 opacity-60"
               />
             </div>
           )}

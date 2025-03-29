@@ -105,7 +105,7 @@ export const projectsData = [
       "Vercel",
     ],
     imageUrl: signals_app,
-    link: null,
+    link: "https://signalstateapp.vercel.app/",
   },
 ] as const;
 

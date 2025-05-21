@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import signals_app from "@/public/signals_app.png";
 import research_pic from "@/public/research_pic.png";
 import stock_app from "@/public/stock_app.png";
+import sleeper_mcp from "@/public/sleeper_mcp.png";
 
 export const links = [
   {
@@ -69,12 +70,32 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "[Submitted - Pending Review] Research Publication",
+    title: React.createElement(
+      "span",
+      {},
+      "[Accepted] ",
+      React.createElement(
+        "em",
+        {},
+        "Crowd-SFT: Crowdsourcing for LLM Alignment",
+      ),
+      " - IEEE DAPPS 2025",
+    ),
     description:
       "A research paper on an open, crowdsourced framework for supervised fine-tuning of Large Language Models.",
     tags: ["Python", "ChatGPT"],
     imageUrl: research_pic,
+    link: "https://conf.researchr.org/track/cisose-2025/dapps-2025",
+    comingSoon: true,
+  },
+  {
+    title: "Fantasy Football Model Context Protocol Server",
+    description:
+      "An API server that converts Sleeper fantasy football data into conversational insights for AI assistants, including league history, settings, and matchups.",
+    tags: ["MCP", "GraphQL", "Typescript", "Node.js", "REST API"],
+    imageUrl: sleeper_mcp,
     link: null,
+    comingSoon: true,
   },
   {
     title: "Stock Application",
@@ -90,6 +111,7 @@ export const projectsData = [
     ],
     imageUrl: stock_app,
     link: "https://stock-application-455102.uc.r.appspot.com/search/home",
+    comingSoon: false,
   },
   {
     title: "Angular Signal State Management Application",
@@ -106,6 +128,7 @@ export const projectsData = [
     ],
     imageUrl: signals_app,
     link: "https://signalstateapp.vercel.app/",
+    comingSoon: false,
   },
 ] as const;
 

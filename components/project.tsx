@@ -14,6 +14,7 @@ export default function Project({
   tags,
   imageUrl,
   link,
+  comingSoon,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -42,13 +43,13 @@ export default function Project({
           className={`bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 relative sm:h-[24rem] ${link ? "hover:bg-gray-200" : ""} transition sm:group-even:pl-8 rounded-lg dark:bg-white/10 ${link ? "dark:hover:bg-white/20" : ""} dark:text-white`}
         >
           <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-8 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
-            {!link && (
+            {comingSoon && (
               <span className="text-sm text-white bg-yellow-600 rounded-full px-3 py-1 w-fit">
                 Coming Soon
               </span>
             )}
             <h3 className="text-2xl mt-1 font-semibold">{title}</h3>
-            <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
+            <p className="mt-2 mb-2 leading-relaxed text-gray-700 dark:text-white/70">
               {description}
             </p>
             <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
@@ -70,13 +71,13 @@ export default function Project({
             className="absolute hidden sm:block top-12 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-even:right-[initial] group-even:-left-40 group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 transition group-hover:scale-[1.04] group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2"
           ></Image>
 
-          {!link && (
+          {comingSoon && (
             <div className="absolute inset-0 z-20">
               <Image
                 src="/construction_tape.png"
                 alt="Under Construction"
                 fill
-                className="rotate-[8deg] -translate-y-8 translate-x-8 opacity-60"
+                className="rotate-[8deg] -translate-y-8 translate-x-8 opacity-60 group-even:scale-x-[-1] group-even:rotate-[-8deg] group-even:-translate-x-6"
               />
             </div>
           )}

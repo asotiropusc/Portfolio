@@ -92,10 +92,10 @@ export const projectsData = [
     title: "Fantasy Football Model Context Protocol Server",
     description:
       "An API server that converts Sleeper fantasy football data into conversational insights for AI assistants, including league history, settings, and matchups.",
-    tags: ["MCP", "GraphQL", "Typescript", "Node.js", "REST API"],
+    tags: ["MCP", "Typescript", "Zod", "Node.js", "REST API"],
     imageUrl: sleeper_mcp,
-    link: null,
-    comingSoon: true,
+    link: "https://github.com/asotiropusc/sleeper-mcp-server",
+    comingSoon: false,
   },
   {
     title: "Stock Application",

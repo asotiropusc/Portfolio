@@ -85,8 +85,8 @@ export const projectsData = [
       "A research paper on an open, crowdsourced framework for supervised fine-tuning of Large Language Models.",
     tags: ["Python", "ChatGPT"],
     imageUrl: research_pic,
-    link: "https://conf.researchr.org/track/cisose-2025/dapps-2025",
-    comingSoon: true,
+    link: "https://www.arxiv.org/abs/2506.04063",
+    comingSoon: false,
   },
   {
     title: "Fantasy Football Model Context Protocol Server",

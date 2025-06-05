@@ -79,7 +79,22 @@ export const projectsData = [
         {},
         "Crowd-SFT: Crowdsourcing for LLM Alignment",
       ),
-      " - IEEE DAPPS 2025",
+      " - ",
+      React.createElement(
+        "span",
+        {
+          onClick: (e) => {
+            e.stopPropagation();
+            window.open(
+              "https://conf.researchr.org/track/cisose-2025/dapps-2025",
+              "_blank",
+            );
+          },
+          className:
+            "underline cursor-pointer text-blue-500 hover:text-blue-700",
+        },
+        "IEEE DAPPS 2025",
+      ),
     ),
     description:
       "A research paper on an open, crowdsourced framework for supervised fine-tuning of Large Language Models.",
